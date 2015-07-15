@@ -18,10 +18,36 @@
       <header>
         <h1>Miranda Shugars</h1>
         <p>Portfolio</p>
-        <p><a href="projects/1.html">Project 1</a></p>
-        <p><a href="projects/2.html">Project 2</a></p>
-        <p><a href="projects/3.html">Project 3</a></p>
+        <p><a href="1.html">Project 1</a></p>
+        <p><a href="2.html">Project 2</a></p>
+        <p><a href="3.html">Project 3</a></p>
         
+              
+        <link rel="stylesheet" href="fancybox/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <script>
+            <a class="grouped_elements" rel="group1" href="images/profile.jpg"><img src="images/profile.jpg" alt=""/></a>
+            <a class="grouped_elements" rel="group1" href="images/2.jpg"><img src="images/2.jpg" alt=""/></a> 	
+            
+            $("a.grouped_elements").fancybox();
+              
+            $(document).ready(function() {
+          	$("a#inline").fancybox({
+          		'hideOnContentClick': true
+          	});
+          
+          	$("a.group").fancybox({
+          		'transitionIn'	:	'elastic',
+          		'transitionOut'	:	'elastic',
+          		'speedIn'		:	600, 
+          		'speedOut'		:	200, 
+          		'overlayShow'	:	false
+          	});
+          	
+          });
+          
+        </script>
+
         <p><a href="projects/images/worksample-hand drawings2015.pdf">Work Sample 2015 PDF</a></p>
         <p><a href="projects/images/portfolio2015.pdf">Architectural Portfolio 2015 PDF</a></p>
         <p><a href="projects/images/design-photoportfolio2015.pdf">Design Portfolio 2015 PDF</a></p>
@@ -75,7 +101,7 @@
     </div>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
   
   </body>
 </html>
