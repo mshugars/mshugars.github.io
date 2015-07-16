@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: #f3f6fa;
+		background: #f6e9e1;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1740,7 +1740,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #b44240;
 		}
 
 	input[type="text"],
@@ -2121,7 +2121,7 @@
 			.wrapper.style2 .button.special {
 				background: #fff;
 				border-color: #fff;
-				color: #83403d !important;
+				color: #b44240 !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -2342,7 +2342,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #83403d;
 				color: #fff;
 			}
 
@@ -2509,7 +2509,7 @@
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #f6e9e1;
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
