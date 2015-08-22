@@ -1781,10 +1781,6 @@
 		border: 0;
 		position: relative;
 		}
-		.image:hover
-		{
-			background: transparent;
-		}
 
 		.image:before {
 			background: url("images/overlay.png");
@@ -1794,6 +1790,14 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
+			
+			transition: opacity 0.5s;
+			-webkit-transition: opacity 0.5s;
+			-ms-transition: opacity 0.5s;
+		}
+		
+		.image:hover:before {
+			opacity: 0;
 		}
 
 		.image.fit {
