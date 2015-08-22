@@ -1780,7 +1780,11 @@
 	.image {
 		border: 0;
 		position: relative;
-	}
+		}
+		.image:hover
+		{
+			background: transparent;
+		}
 
 		.image:before {
 			background: url("images/overlay.png");
