@@ -213,7 +213,7 @@
 								<div class="6u 12u(narrower)">
 
 									<section>
-										<a id="1" href="images/pic01.jpg" class="image featured"><img alt="1" src="images/pic01.jpg" /></a>
+										<a class="fancybox" href="images/pic01.jpg" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 										<header>
 											<h3>A Waterfall That</h3>
 										</header>
@@ -333,20 +333,21 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11/jquery.min.js"></script>-->
-				<script>
+			<script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+			<script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+			<!--	<script>
 					!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
 				</script>
 			<script src="fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-			<!--	<link rel="stylesheet" href="fancybox/style.css" />-->
+			<link rel="stylesheet" href="fancybox/style.css" />-->
 			
 	<script>
 		$(document).ready(function() {
 			/*
 			*   Examples - images
 			*/
-			$("a#1").fancybox();
-			$("a#2").fancybox({
+			$('.fancybox').fancybox();
+			/*$("a#2").fancybox({
 				'overlayShow'	: false,
 				'transitionIn'	: 'elastic',
 				'transitionOut'	: 'elastic'
@@ -377,7 +378,7 @@
 					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
 				}
 			});
-			return false;
+			return false;*/
 		});
 	</script>
 
