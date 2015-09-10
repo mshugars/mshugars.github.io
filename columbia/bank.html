@@ -15,17 +15,23 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="right-sidebar">
-	<a href="1/plans.jpg" id="plans"></a>
+	<a class="plans" href="1/plans.jpg" id="plans"></a>
 	<style> 
-		#plans {
+		.plans {
 			 background: url("1/plans.jpg");
+			 position: absolute;
+    		   	 top: 0;
+			 left: 0;
+    			 bottom: 0;
+    			 right: 0;
+    			 z-index: -1;
+    			 overflow: hidden;
 			 display: block;
 			 background-size: 775px 420px;
 			 background-repeat: repeat;
 			 padding-top: 800px;
 		}
 	</style>
-	<body style="background-image:url(1/plans.jpg)">
 		<div id="page-wrapper">
 
 			<!-- Header -->
