@@ -2469,7 +2469,7 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"), url("../../images/marbling.jpg");
+		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2494,6 +2494,10 @@
 
 	body.index #main {
 		padding-top: 5em;
+	}
+	
+	body.left-sidebar #main {
+		background-image: url("images/marbling.jpg");
 	}
 
 /* CTA */
