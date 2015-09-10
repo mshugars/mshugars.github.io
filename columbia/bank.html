@@ -8,6 +8,10 @@
 	<a class="plans" href="1/plans.jpg" id="plans"></a>
 	<style> 
 		body .plans {
+			border: 0;
+			position: relative;
+			}
+		body .plans:before {	
 			 background: url("1/plans.jpg");
 			 content: '';
 			 position: absolute;
@@ -28,7 +32,7 @@
 			-ms-transition: opacity 0.5s;
 			}
 			
-		.plans:hover {
+		body .plans:before:hover {
 			opacity: 0;
 			}
 		
