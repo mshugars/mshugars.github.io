@@ -13,7 +13,6 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--<link rel="stylesheet" href="assets/css/main.css" />-->
-	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen">
 
     <title>Home</title>
 
@@ -22,6 +21,10 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    
+    <!-- Lightbox CSS -->
+    <link href="bootstrap-lightbox/bootstrap-lightbox.min.css" rel="stylesheet">
+    <link href="bootstrap-lightbox/bootstrap-lightbox.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -165,62 +168,6 @@
 
     <!-- Portfolio -->
     <section id="projects" class="portfolio">
-        	<section class="wrapper style3 container special">
-                      <!--  <div class="col-md-4">
-				<header class="major">
-					<h5><strong>Featured Content</strong></h5>
-					<h2><p>Photographs <strong>Yosemite</strong></p></h2>
-				</header>
-
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a class="fancybox image featured" href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" /></a>
-										<header>
-											<h3>A Waterfall That</h3>
-										</header>
-										<p>blows away as quickly as it falls, reaching us as mist.</p>
-									</section>
-
-								</div>
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="images/pic02.jpg" class="fancybox image featured"><img alt="" src="images/pic02.jpg" /></a>										<header>
-											<h3>Yosemite Valley,</h3>
-										</header>
-										<p>foothills to the Sierra range.</p>
-									</section>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="images/pic02.jpg" class="fancybox image featured" title="silversinnowssilverminnowssilverminnowssilversinnowssilverminnowssil<br>verminnowssilversinnowssilverminnowssilverminnowssilversinnowssilverminnowssilver</br>"><img alt="" src="images/pic03.jpg" /></a>										<header>
-											<h3>A Mountain Lake Where</h3>
-										</header>
-										<p>we stole a half hour with tiny silver minnows and fractured cloud reflections.</p>
-									</section>
-
-								</div>
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="images/pic04.jpg" class="fancybox image featured"><img alt="" src="images/pic04.jpg" /></a>
-										<header>
-											<h3>On a Hot Day</h3>
-										</header>
-										<p>in Berkeley's Botanical Gardens, looking at our hands, surrounded by bamboo.</p>
-									</section>
-								</div>
-							</div>
-						</section>
-					</section> -->
-        
-        
      <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -228,13 +175,21 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                            <div class="wrapper style3 container special">
-                                <a class="fancybox image featured" href="columbia/1/sectionNOZOMBIES2.jpg" title = "zombies n such"> <img alt="" src="columbia/1/sectionNOZOMBIES2_sm.jpg">
-                                   <!-- <img class="img-portfolio img-responsive" src="columbia/1/sectionNOZOMBIES2_sm.jpg"> -->
+                        	
+        <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+		<div class='lightbox-content'>
+		<img src="image.png">
+		<div class="lightbox-caption"><p>Your caption here</p></div>
+		</div>
+	</div>
+</div>
+                        	
+                           <!-- <div class="portfolio-item">
+                                <a href="columbia/1/sectionNOZOMBIES2.jpg" title = "zombies n such">
+                                   <img class="img-portfolio img-responsive" src="columbia/1/sectionNOZOMBIES2_sm.jpg">
                                 </a>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <a href="columbia/1/axo explosion.jpg">
