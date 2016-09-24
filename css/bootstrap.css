@@ -1612,7 +1612,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-.row :hover {
+.row a:hover p {
   opacity: .5;
     -moz-transition: all 0.4s ease-out;  /* FF4+ */
     -o-transition: all 0.4s ease-out;  /* Opera 10.5+ */
