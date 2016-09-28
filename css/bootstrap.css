@@ -89,8 +89,9 @@ img {
   filter: alpha(opacity=100);
 }
 img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  color: #fff;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 svg:not(:root) {
   overflow: hidden;
