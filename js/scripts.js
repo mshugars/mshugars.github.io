@@ -23,8 +23,17 @@ $('#modalCarousel').carousel({interval:false});
 /* change modal title when slide changes */
 $('#modalCarousel').on('slid.bs.carousel', function () {
   $('.modal-title').html($(this).find('.active').attr("title"));
-})
+});
 
+/*on hover opacity change*/
+$('.row .thumbnail').onmouseover(function(){
+    this.style.opacity = '0.5';
+});
+
+  $('.row .thumbnail').hover(function(){
+    this.style.opacity = '0.5';
+});
+  
 /* when clicking a thumbnail */
 $('.row .thumbnail').click(function(){
     var idx = $(this).parents('div').index();
