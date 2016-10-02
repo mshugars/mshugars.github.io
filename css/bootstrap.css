@@ -89,7 +89,7 @@ img {
   filter: alpha(opacity=100);
 }
 img:hover,
-img a: hover {
+img a:hover {
   opacity: 0.3;
   filter: alpha(opacity=30);
   -webkit-transition: opacity .5s;
@@ -1134,8 +1134,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-.img-responsive: hover img: hover {
-  opacity: .3;
+.img-responsive:hover, img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  transition: opacity .5s;
 }
 .img-rounded {
   border-radius: 6px;
