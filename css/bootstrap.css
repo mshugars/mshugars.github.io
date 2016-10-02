@@ -90,7 +90,6 @@ img {
 }
 img:hover,
 img a: hover {
-  color: #fff;
   opacity: 0.3;
   filter: alpha(opacity=30);
   -webkit-transition: opacity .5s;
