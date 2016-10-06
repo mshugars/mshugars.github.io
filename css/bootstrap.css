@@ -90,16 +90,16 @@ img {
 }
 img:hover,
 img a:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
   /*-webkit-transition: opacity .5s;
   -moz-transition: opacity .5s;
   transition: opacity .5s; */
-    -moz-transition: all 0.4s ease-in-out;  /* FF4+ */
-    -o-transition: all 0.4s ease-in-out;  /* Opera 10.5+ */
-    -webkit-transition: all 0.4s ease-in-out;  /* Saf3.2+, Chrome */
-    -ms-transition: all 0.4s ease-in-out;  /* IE10? */
-    transition: all 0.4s ease-in-out;  
+    -moz-transition: all 0.2s ease-in-out;  /* FF4+ */
+    -o-transition: all 0.2s ease-in-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.2s ease-in-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.2s ease-in-out;  /* IE10? */
+    transition: all 0.2s ease-in-out;  
 }
 svg:not(:root) {
   overflow: hidden;
