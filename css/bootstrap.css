@@ -1145,7 +1145,7 @@ opacity: .6;
   filter: alpha(opacity=60);
 }
 
-.img-responsive a:hover {
+.img-responsive hover, a:hover {
   opacity: 1;
   filter: alpha(opacity=100);
     -moz-transition: all 0.3s ease-in-out;  /* FF4+ */
