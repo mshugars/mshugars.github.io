@@ -1140,17 +1140,19 @@ img {
   height: auto;
 }
 
+.img-responsive {
+opacity: .6;
+  filter: alpha(opacity=60);
+}
+
 .img-responsive a:hover {
   opacity: 1;
   filter: alpha(opacity=100);
-  /*-webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  transition: opacity .5s; */
-    -moz-transition: all 0.2s ease-in-out;  /* FF4+ */
-    -o-transition: all 0.2s ease-in-out;  /* Opera 10.5+ */
-    -webkit-transition: all 0.2s ease-in-out;  /* Saf3.2+, Chrome */
-    -ms-transition: all 0.2s ease-in-out;  /* IE10? */
-    transition: all 0.2s ease-in-out;  
+    -moz-transition: all 0.3s ease-in-out;  /* FF4+ */
+    -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.3s ease-in-out;  /* IE10? */
+    transition: all 0.3s ease-in-out;  
 }
 .img-rounded {
   border-radius: 6px;
