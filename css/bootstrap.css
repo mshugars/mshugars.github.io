@@ -85,8 +85,8 @@ sub {
 }
 img {
   border: 0;
-  /*opacity: 1;
-  filter: alpha(opacity=100);*/
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 /*img:hover,
 img a:hover {
@@ -1145,7 +1145,8 @@ opacity: .6;
   filter: alpha(opacity=60);
 }
 
-.img-responsive hover, a:hover {
+.img-responsive: hover, 
+.img-responsive a:hover {
   opacity: 1;
   filter: alpha(opacity=100);
     -moz-transition: all 0.3s ease-in-out;  /* FF4+ */
